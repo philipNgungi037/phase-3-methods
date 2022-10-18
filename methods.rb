@@ -5,27 +5,27 @@ end
 
 #greet
 
-def greet(name)
-    puts ("Hello, #{name}!")
+def greet name
+    puts "Hello, #{name}!"
 end
 greet"Naureen"
 
 #greet_with_default
 
-def greet_with_default(name = "programmer")
+def greet_with_default name = "programmer"
     puts "Hello, #{name}!"
 end
 greet_with_default "Jimmy"
 
 #add
 
-def add(num1, num2)
+def add num1, num2
     sum = num1 + num2
 end
 
 #halve
 
-def halve(number)
+def halve number
     if number.class !=  Integer
         return nil
 
